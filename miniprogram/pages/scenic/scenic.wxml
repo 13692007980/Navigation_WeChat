@@ -1,0 +1,83 @@
+<view class="scenic-wrapper">
+  <view class="scenic-header">
+    <view class="scenic-title">生活服务</view>
+    <view class="scenic-list">
+      <view class="scenic-item"></view>
+      <view class="scenic-item"></view>
+      <view class="scenic-item"></view>
+      <view class="scenic-item"></view>
+    </view>
+    <view class="scenic-sever">
+      <view class="scenic-sever-item">
+        <view class="scenic-sever-bgimg img1"></view>
+        <view class="scenic-sever-title">银行</view>
+      </view>
+      <view class="scenic-sever-item">
+        <view class="scenic-sever-bgimg img2"></view>
+        <view class="scenic-sever-title">车险</view>
+      </view>
+      <view class="scenic-sever-item">
+        <view class="scenic-sever-bgimg img3"></view>
+        <view class="scenic-sever-title">超市</view>
+      </view>
+      <view class="scenic-sever-item">
+        <view class="scenic-sever-bgimg img4"></view>
+        <view class="scenic-sever-title">洗浴</view>
+      </view>
+      <view class="scenic-sever-item">
+        <view class="scenic-sever-bgimg img5"></view>
+        <view class="scenic-sever-title">更多</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="scenic-outside">
+    <view class="scenic-title">出行服务</view>
+    <view class="scenic-outside-list">
+      <view class="scenic-outside-item">
+        <view class="scenic-outside-bgimg img6"></view>
+        <view class="scenic-outside-title">地铁图</view>
+      </view>
+      <view class="scenic-outside-item">
+        <view class="scenic-outside-bgimg img7"></view>
+        <view class="scenic-outside-title">公交站</view>
+      </view>
+      <view class="scenic-outside-item">
+        <view class="scenic-outside-bgimg img8"></view>
+        <view class="scenic-outside-title">打车</view>
+      </view>
+      <view class="scenic-outside-item">
+        <view class="scenic-outside-bgimg img9"></view>
+        <view class="scenic-outside-title">更多</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="scenic-recommend">
+    <view class="scenic-title">热门推荐</view>
+    <view class="scenic-recommend-list">
+      <view class="scenic-recommend-item">
+        <view class="scenic-recommend-bgimg reimg1"></view>
+        <view class="scenic-recommend-title">小度语音搜素</view>
+        <view class="scenic-recommend-txt">比打字快很多，直接说你要去哪</view>
+      </view>
+      <view class="scenic-recommend-item">
+        <view class="scenic-recommend-bgimg reimg2"></view>
+        <view class="scenic-recommend-title">百度专享车险</view>
+        <view class="scenic-recommend-txt">两折起，预约即送汽油及大礼包</view>
+      </view>
+      <view class="scenic-recommend-item">
+        <view class="scenic-recommend-bgimg reimg3"></view>
+        <view class="scenic-recommend-title">离线地图</view>
+        <view class="scenic-recommend-txt">0流量，断网也能搜索</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="scenic-city">
+    <view class="scenic-location">
+      <image style="width: 60rpx; height: 60rpx; float: left" src="https://webmap1.bdimg.com/mobile/simple/static/index/images/new/loc_684ceba.png"></image>
+      <text style="color: #333; line-height: 60rpx; margin-left: 20rpx;">我的位置： {{locationCity}}</text>
+    </view>
+  </view>
+</view>

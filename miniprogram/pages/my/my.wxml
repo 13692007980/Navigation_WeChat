@@ -1,0 +1,63 @@
+<view class="user-wrapper">
+<view class="user-header">
+  <view class="user-bgimg user-box"></view>
+  <view class="user-bg user-box"></view>
+  <view class="user-message user-box">
+    <view class="user-message-list">
+      <view class="user-img">
+        <image wx:if="{{!loginBool}}" class="user-myimg" src="../../images/my.png"></image>
+        <image wx:if="{{loginBool}}" class="user-myimg" src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="user-login-message" wx:if="{{!loginBool}}">未登录</view>
+      <view class="user-login-message2" wx:if="{{loginBool}}">
+        <view class="user-name">
+          {{userInfo.nickName}}
+          <view class="user-lv">LV.{{lv}}</view>
+        </view>
+        <view class="user-cj">
+          本周再使用2天地图解锁"闪耀新星"成就
+        </view>
+        <view class="user-sign">
+          <button style="background: #1E90FF; margin: 0; color: #fff; border-radius: 30rpx; margin-top: 15rpx; width: 400rpx; height: 60rpx; font-size: 30rpx;" wx:if="{{!signBool}}" bindtap="SignBtn">签到</button>
+          <button style="background: #D3D3D3; margin: 0; color: #333; border-radius: 30rpx; margin-top: 15rpx; width: 400rpx; height: 60rpx; font-size: 30rpx;" wx:if="{{signBool}}">已签到</button>
+        </view>
+      </view>
+      <view class="user-login" wx:if="{{!loginBool}}">
+        <button class="user-login-btn" style="margin: 0; color: blue; border: 3rpx solid blue; width: 240rpx; font-size: 28rpx; border-radius: 40rpx; background: #fff;" bindtap="LoginBtn" open-type="getUserInfo">登录/注册</button>
+      </view>
+    </view>
+  </view>
+</view>
+  <view class="sign-wrapper">
+    <view class="sign-title">签到</view>
+    <view class="sign-num" wx:if="{{!loginBool}}">请先登录</view>
+    <view class="sign-num sign-login-num" wx:if="{{loginBool}}">您已连续签到  <text class="sign-numtext">{{signcount}}次</text></view>
+  </view>
+  <view class="user-content">
+    <view class="user-content-item">
+      <view class="user-content-title">我的足迹</view>
+      <view class="user-content-img"><image src="../../images/arrow.png" style="width:100%; height: 100%"></image></view>
+      <view class="user-content-tip">已到过0个地方</view>
+    </view>
+    <view class="user-content-item">
+      <view class="user-content-title">领航保障</view>
+      <view class="user-content-img"><image src="../../images/arrow.png" style="width:100%; height: 100%"></image></view>
+      <view class="user-content-tip">导错、违章赔付</view>
+    </view>
+    <view class="user-content-item">
+      <view class="user-content-title">帮助与反馈</view>
+      <view class="user-content-img"><image src="../../images/arrow.png" style="width:100%; height: 100%"></image></view>
+    </view>
+    <view class="user-content-item">
+      <view class="user-content-title">共享单车</view>
+      <view class="user-content-img"><image src="../../images/arrow.png" style="width:100%; height: 100%"></image></view>
+    </view>
+    <view class="user-content-item">
+      <view class="user-content-title">设置</view>
+      <view class="user-content-img"><image src="../../images/arrow.png" style="width:100%; height: 100%"></image></view>
+    </view>
+  </view>
+  <view class="anlogin-box" wx:if="{{loginBool}}">
+    <button style="width: 80%; background: red; color: #fff;" bindtap="CloseLogin">退出登录</button>
+  </view>
+</view>

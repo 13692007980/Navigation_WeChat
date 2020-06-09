@@ -1,0 +1,26 @@
+<view class="weather-wrapper"> 
+  <view class="weather-header">
+    <view  class="weather-header-address">{{weatherData.currentCity}}</view>
+    <view class="weather-header-temperature">{{temperature}}</view>
+    <view class="weather-header-weather">{{weatherData.weatherDesc}}</view>
+    <view class="weather-header-pm">PM2.5: {{weatherData.pm25}} / {{weatherData.wind}}</view>
+  </view>
+  <view class="weather-week">
+    <view class="weather-week-item" wx:for="{{weatherAll}}" wx:key="index">
+      <view style="overflow: hidden; margin-bottom: 10rpx;">
+        <view class="item-date">{{item.date}}</view>
+        <view class="item-wind">{{item.wind}}</view>
+      </view>
+      <view class="item-weather">
+        {{item.weather}}
+      </view>
+      <view class="item-img">
+        <image class="day-img img" src="{{item.dayPictureUrl}}"></image>   
+        <image class="night-img img" src="{{item.nightPictureUrl}}"></image>
+      </view>
+      <view class="item-temperature">
+        {{item.temperature}}
+      </view>
+    </view>
+  </view>
+</view>

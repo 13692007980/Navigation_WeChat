@@ -1,0 +1,177 @@
+.scenic-wrapper{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f0f0f0;
+}
+.scenic-header{
+  width: 100%;
+  background: #fff;
+  padding: 20rpx 40rpx 40rpx 40rpx;
+  box-sizing: border-box;
+}
+.scenic-title{
+  color: #333;
+}
+.scenic-list{
+  margin-top: 20rpx;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+.scenic-item{
+  width: 23%;
+  height: 150rpx;
+  float: left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20rpx;
+}
+.scenic-item:nth-of-type(1){
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/canyin_78f1c12.png');
+}
+.scenic-item:nth-of-type(2){
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/hotel_1658195.png');
+}
+.scenic-item:nth-of-type(3){
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/jingdian_7344942.png');
+}
+.scenic-item:nth-of-type(4){
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/moive_5e6eaac.png');
+}
+
+.scenic-sever{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40rpx;
+}
+.scenic-sever-item{
+  width: 80rpx;
+  float: left;
+}
+.scenic-sever-title{
+  width: 80rpx;
+  text-align: center;
+  color: #333;
+}
+.scenic-sever-bgimg{
+  width: 100%;
+  height: 80rpx;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.img1{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/bank_aa25664.png');
+}
+.img2{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/carinsurance_c138e16.png');
+}
+.img3{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/market_8076cb1.png');
+}
+.img4{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/bath_fffa5c4.png');
+}
+.img5{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/manage_bda504a.png');
+}
+
+.scenic-outside{
+  width: 100%;
+  background: #fff;
+  padding: 20rpx 40rpx 40rpx 40rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.scenic-outside-title{
+  width: 110rpx;
+  color: #333;
+  text-align: center;
+}
+.scenic-outside-item{
+  width: 110rpx;
+  float: left;
+}
+.scenic-outside-list{
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+.scenic-outside-bgimg{
+  width: 100%;
+  height: 110rpx;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.img6{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/subway_8d164b1.png');
+}
+.img7{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/bus_b2ad3ce.png');
+}
+.img8{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/taxi_a2bd156.png');
+}
+.img9{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/trip-more_162088f.png');
+}
+
+.scenic-recommend{
+  width: 100%;
+  background: #fff;
+  padding: 20rpx 40rpx 20rpx 40rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.scenic-recommend-list{
+  width: 100%;
+  margin-top: 20rpx;
+}
+.scenic-recommend-item{
+  width: 100%;
+  margin-bottom: 40rpx;
+  overflow: hidden;
+}
+.scenic-recommend-bgimg{
+  width: 100rpx;
+  height: 100rpx;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  float: left;
+}
+.reimg1{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/hot-xiaodu_5e16e6c.png');
+}
+.reimg2{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/hot-carinsurance_82792f2.png');
+}
+.reimg3{
+  background-image: url('https://webmap1.bdimg.com/mobile/simple/static/index/images/new/hot-offline_a32f75d.png');
+}
+.scenic-recommend-title{
+  float: left;
+  font-size: 40rpx;
+  padding-left: 20rpx;
+}
+.scenic-recommend-txt{
+  float: left;
+  color: #666;
+  font-size: 28rpx;
+  padding-left: 20rpx;
+}
+
+.scenic-city{
+  width: 100%;
+  background: #fff;
+  padding: 30rpx 40rpx 30rpx 40rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.scenic-location{
+  overflow: hidden;
+}

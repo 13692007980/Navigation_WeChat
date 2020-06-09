@@ -1,0 +1,8 @@
+<view class="map_container">
+  <view class="map-search-wrapper">
+    <input style="float: left" class="map-search" bindinput="CitySearch" placeholder="当前定位城市 : {{regAddress.address}}"></input>
+    <button style="flex: 1; float: left; background-color: #98F5FF; color: #666; border-radius: 0" class="map-search-btn" bindtap="CitySearchBtn">查询</button>
+  </view>
+  <button style="width: 120rpx; height: 120rpx; border-radius: 50%" class="route-btn" bindtap="RouteBtn">路线</button>
+  <map id="map" scale="14" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" polyline="{{polyline}}"></map>
+</view>

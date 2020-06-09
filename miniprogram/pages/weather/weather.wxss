@@ -1,0 +1,87 @@
+.weather-wrapper{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-image: url('https://tva4.sinaimg.cn/large/76a1a9d5ly1g545obsfk7g20a00f0hdt.gif');
+  background-size: 100%;
+}
+.weather-header{
+  width: 100%;
+}
+.weather-header-address{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 36rpx;
+  padding-top: 10rpx;
+}
+.weather-header-temperature{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 140rpx;
+}
+.weather-header-weather{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 32rpx;
+}
+.weather-header-pm{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 12rpx;
+}
+
+.weather-week{
+  width: 90%;
+  margin: 30rpx 0 0 5%;
+  border-top: 2rpx solid #c0c0c0;
+}
+.weather-week-item{
+  color: #fff;
+  margin: 10rpx 0 0 0;
+  border-bottom: 2rpx solid #c0c0c0;
+  /* display: flex; */
+}
+.item-date{
+  font-size: 26rpx;
+  float: left;
+}
+.item-wind{
+  font-size: 26rpx;
+  float: right;
+}
+
+.item-weather{
+  display: inline-block;
+  font-size: 26rpx;
+  width: 33%;
+  float: left;
+  margin-top: 24rpx;
+}
+
+.item-img{
+  display: inline-block;
+  padding: 0 0 20rpx 0;
+  font-size: 26rpx;
+  width: 33%;
+  /* float: left; */
+}
+
+.img{
+  width: 60rpx;
+  height: 60rpx;
+}
+.night-img{
+  margin-left: 80rpx;
+}
+
+.item-temperature{
+  display: inline-block;
+  float: right;
+  margin-top: 20rpx;
+}
